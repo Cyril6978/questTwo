@@ -1,0 +1,11 @@
+<img [src]="user.photoSrc">
+<input class=input type="text" [(ngModel)]="user.quote">
+{{user.quote}}
+<p>
+  {{ user.name}} {{ user.firstName}}
+</p>
+<p [hidden]="user.boolean" >
+  {{ user.age }} ans
+</p>
+<button (click)= button()>Mon age est secret !! Click ici</button>
+
